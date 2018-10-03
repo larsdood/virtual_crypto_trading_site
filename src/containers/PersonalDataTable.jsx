@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Table, Responsive } from 'semantic-ui-react';
+import { Table } from 'semantic-ui-react';
 import { formatUSD } from '../Util';
 import { totalValueSelector } from '../state/selectors';
 

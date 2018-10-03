@@ -53,6 +53,7 @@ class TradeModal extends Component {
         break;
       case purchaseAmount < 0 :
         errorMsg = 'Negative amount';
+        break;
       default:
         break;
     }

@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import AuthenticationModal from '../components/AuthenticationModal';
-import { Menu, Button, Responsive, Dropdown, Icon } from 'semantic-ui-react';
+import { Menu, Button, Responsive, Dropdown } from 'semantic-ui-react';
 import { logIn, logOut, register } from '../state/actions';
 import { totalValueSelector } from '../state/selectors';
 import { formatUSD } from '../Util';

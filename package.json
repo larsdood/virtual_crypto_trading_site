@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "concurrently": "^3.5.1",
-    "prop-types": "^15.6.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
@@ -15,8 +14,7 @@
     "reselect": "^3.0.1",
     "rxjs": "^5.0.0",
     "semantic-ui-css": "^2.3.2",
-    "semantic-ui-react": "^0.81.3",
-    "styled-components": "^3.3.0"
+    "semantic-ui-react": "^0.81.3"
   },
   "scripts": {
     "preinstall": "react-scripts build && cd api && npm install",
