@@ -18,8 +18,9 @@
     "semantic-ui-react": "^0.81.3"
   },
   "scripts": {
-    "preinstall": "npm install && react-scripts build && cd api && npm install",
+    "preinstall": "cd api && npm install",
     "start": "cd api && node server.js",
+    "postinstall": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
