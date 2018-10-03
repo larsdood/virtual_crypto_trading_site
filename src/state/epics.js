@@ -1,4 +1,4 @@
-import rxjs, {Observable} from 'rxjs';
+import {Observable} from 'rxjs';
 import { ajax } from 'rxjs/observable/dom/ajax';
 import * as T from './actionTypes';
 import * as A from './actions';

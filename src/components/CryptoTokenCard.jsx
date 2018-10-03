@@ -12,7 +12,7 @@ class CryptoTokenCard extends Component {
       <Card>
         <Card.Content textAlign='center'>
           <Card.Header>
-            <img width='25%' height='25%' src={Icons[`${this.props.tokenName}_128`]}>loading image failed</img>
+            <img alt='' width='25%' height='25%' src={Icons[`${this.props.tokenName}_128`]}/>
           </Card.Header>
           <Card.Meta>{this.props.tokenName}</Card.Meta>
           <Card.Description>

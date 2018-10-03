@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TokenCardGroup from '../containers/TokenCardGroup';
-import { Header, Icon, Responsive } from 'semantic-ui-react';
+import { Header, Icon } from 'semantic-ui-react';
 
 class MainPage extends Component {
   render() {
