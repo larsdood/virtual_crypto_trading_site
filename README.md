@@ -1,6 +1,6 @@
 ## Cryptotrader
 
-A basic virtual cryptotrading prototype intended for person learning. Signed up users can use virtual money to buy & sell various cryptocoins. The exchange rate is updated real time, as is the portfolio and the summed value of the coins.
+A basic virtual cryptotrading prototype intended for self-study, specifically creating a full webapp with React/Redux frontend and Express/MongoDB backend. Signed up users can use virtual money to buy & sell various cryptocoins. The exchange rate is updated real time, as is the portfolio and the summed value of the coins.
 
 At the time of writing this, the prototype is hosted at: https://virtual-crypto-trading-app.herokuapp.com/
 
